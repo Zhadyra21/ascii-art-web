@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Handlee', serif;
+    background-color: #9fa8a9;
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 45px;
+    text-align: center;
+    font-size:3em;
+    font-weight: 100;
+    color: #4d0a36;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+select {
+    font-family: 'Handlee', serif;
+    color: black;
+    background-color: white;
+    font-size: medium;
+    font-style: italic;
+}
+#text {
+    border-radius: 5px;
+    width: 250px;
+    height: 70px;
+    border: none;
+    outline: none;
+}
+button {
+    border-radius: 5px;
+    width: 255px;
+    background-color: #4d0a36;
+    padding: 12px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: auto;
+    font-weight: bold;
+    font-size: medium;
+}
+button:hover {
+    color: #9fa8a9;
+}
+pre {
+    margin: auto;
+    text-align: left;
+    max-width: 600px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 630px) {
+    h1 {
+        text-align: center;
+        font-size:3em;
+        font-weight: 100;
+        margin: 10% auto;
+        color: #4d0a36
+    }
+
+    .section {
+        align-content: center;
+    } 
+}
+
+
