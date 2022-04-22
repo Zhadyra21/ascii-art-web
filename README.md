@@ -4,15 +4,15 @@ Ascii-art-web consists in creating and running a server, in which it will be pos
 
 **The webpage allows the use of the different banners:**
 
-    * shadow
-    * standard
-    * thinkertoy
+    • shadow
+    • standard
+    • thinkertoy
 
 **The main page has:**
 
-    * text input
-    * radio buttons, select object or anything else to switch between banners
-    * button, which sends a POST request to '/ascii-art' and outputs the result on the page.
+    • text input
+    • radio buttons, select object or anything else to switch between banners
+    • button, which sends a POST request to '/ascii-art' and outputs the result on the page.
 
 **Usage to run :**
 1. Run on the Terminal:`go run server.go`
